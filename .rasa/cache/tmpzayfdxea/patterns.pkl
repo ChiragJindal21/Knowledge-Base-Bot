@@ -1,0 +1,6 @@
+[
+  {
+    "name": "company",
+    "pattern": "(\\bAcumen\\ Resources\\ Ltd\\b|\\bBAE\\ Systems\\b|\\bMind\\ Your\\ Business\\ Inc\\b|\\bThe\\ Walt\\ Disney\\ Co\\.\\b|\\bEndoTex\\ Interventional\\ Systems,\\ Inc\\b|\\bBertelsmann\\ Foundation\\b|\\bCentral\\ Glass\\ Co\\.\\b|\\bMountainside\\ Oral\\ Care\\b|\\bEurActiv\\ media\\ network\\b|\\bTata\\ Chemicals\\ Limited\\b|\\bBettys\\ \\&\\ Taylors\\ Group\\ Limited\\b)"
+  }
+]

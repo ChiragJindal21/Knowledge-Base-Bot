@@ -1,0 +1,6 @@
+[
+  {
+    "name": "company",
+    "pattern": "(\\bAcumen\\ Resources\\ Ltd\\b|\\bBAE\\ Systems\\b|\\bMind\\ Your\\ Business\\ Inc\\b)"
+  }
+]
