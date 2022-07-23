@@ -1,0 +1,73 @@
+version: "3.1"
+nlu:
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - good morning
+      - good evening
+      - hey there
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you around
+      - see you later
+
+  - intent: query_knowledge_base
+    examples: |
+      - what [companies]{"entity": "object_type", "value": "company"} can you recommend?
+      - list some [companies]{"entity": "object_type", "value": "company"}.
+      - can you name some [companies]{"entity": "object_type", "value": "company"} please?
+      - can you show me some [companies]{"entity": "object_type", "value": "company"} options?
+      - are there any [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of the [Acumen Resources Ltd]{"entity": "company"}?
+      - are there any [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of the [first]{"entity": "mention", "value": "1"} one?
+      - are there any [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of [that one]{"entity": "mention"}?
+      - are there any [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of [this company]{"entity": "mention"}?
+      - list all the [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of the [Acumen Resources Ltd]{"entity": "company"}
+      - list all the [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of the [fifth]{"entity": "mention", "value": "5"} one
+      - list all the [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of [that one]{"entity": "mention"}
+      - list all the [subsidiaries]{"entity": "attribute", "value": "subsidiaries"} of [this company]{"entity": "mention"}
+      - who is the [ceo]{"entity": "attribute", "value": "ceo"} of the [third]{"entity": "mention", "value": "3"} one?
+      - who is the [ceo]{"entity": "attribute", "value": "ceo"} of [that one]{"entity": "mention"}?
+      - who is the [ceo]{"entity": "attribute", "value": "ceo"} of [this company]{"entity": "mention"}?
+      - who is the [ceo]{"entity": "attribute", "value": "ceo"} of the [BAE Systems]{"entity":"company"}?
+      - what is the [foundation date]{"entity": "attribute", "value": "foundation-date"} of [Mind Your Business Inc]{"entity": "company"}?
+      - what is the [foundation date]{"entity": "attribute", "value": "foundation-date"} of [last]{"entity": "mention", "value": "LAST"} one?
+      - what is the [foundation date]{"entity": "attribute", "value": "foundation-date"} of [that one]{"entity": "mention"}?
+      - what is the [foundation date]{"entity": "attribute", "value": "foundation-date"} of [this company]{"entity": "mention"}?
+      - who are the [founders]{"entity": "attribute", "value": "founders"} of [fourth]{"entity": "mention", "value": "4"} one?
+      - who are the [founders]{"entity": "attribute", "value": "founders"} of [that one]{"entity": "mention"}?
+      - who are the [founders]{"entity": "attribute", "value": "founders"} of [this company]{"entity": "mention"}?
+      - who are the [founders]{"entity": "attribute", "value": "founders"} of the [BAE Systems]{"entity":"company"}?
+      - at which place the [headquaters]{"entity": "attribute", "value": "location"} of the [Acumen Resources Ltd]{"entity":"company"} located?
+      - at which place the [headquaters]{"entity": "attribute", "value": "location"} of the [sixth]{"entity": "mention", "value": "6"} one located?
+      - at which place the [headquaters]{"entity": "attribute", "value": "location"} of [that one]{"entity": "mention"} located?
+      - at which place the [headquaters]{"entity": "attribute", "value": "location"} of [this company]{"entity": "mention"} located?
+      - What is the [location]{"entity": "attribute", "value": "location"} of the [sixth]{"entity": "mention", "value": "6"} one?
+      - What is the [location]{"entity": "attribute", "value": "location"} of [that one]{"entity": "mention"}?
+      - What is the [location]{"entity": "attribute", "value": "location"} of [this companySS]{"entity": "mention"}?
+      - What is the [location]{"entity": "attribute", "value": "location"} of the [Acumen Resources Ltd]{"entity":"company"}?
+
+  - lookup: company
+    examples: |
+      - Acumen Resources Ltd
+      - BAE Systems
+      - Mind Your Business Inc
+      - The Walt Disney Co.
+      - EndoTex Interventional Systems, Inc
+      - Bertelsmann Foundation
+      - Central Glass Co.
+      - Mountainside Oral Care
+      - EurActiv media network
+      - Tata Chemicals Limited
+      - Bettys & Taylors Group Limited

@@ -1,0 +1,71 @@
+{
+    "company": [
+        {
+            "id": 0,
+            "name": "Acumen Resources Ltd",
+            "ceo": "Paul Walsh",
+            "subsidiaries": ["Actuarial Community UK", "Actuarial Community Ireland", "Actuarial Community Europe"]
+        },
+        {
+            "id": 1,
+            "name": "BAE Systems",
+            "ceo": "Roger Carr"
+        },
+        {
+            "id": 2,
+            "name": "Mind Your Business Inc",
+            "foundation-date": "1996",
+            "ceo": "Karen Caruso"
+        },
+        {
+            "id": 3,
+            "name": "The Walt Disney Co.",
+            "subsidiaries": ["Walt Disney Music Company"],
+            "foundation-date": "October 1949",
+            "location": "Burbank, California"
+        },
+        {
+            "id": 4,
+            "name": "EndoTex Interventional Systems, Inc",
+            "ceo": "John Maroney",
+            "foundation-date": "2007",
+            "founders": ["John Maroney"]
+        },
+        {
+            "id": 5,
+            "ceo": "Gunter Thielen",
+            "name": "Bertelsmann Foundation"
+        },
+        {
+            "id": 6,
+            "name": "Central Glass Co.",
+            "foundation-date": "1946",
+            "founders": ["John Dale", "Stanley Gordon"],
+            "location": "Brockton, Massachusetts"
+        },
+        {
+            "id": 7,
+            "name": "Mountainside Oral Care",
+            "foundation-date": "2010",
+            "founders": ["Dr. Olaru"]
+        },
+        {
+            "id": 8,
+            "name": "EurActiv media network",
+            "founders": ["Christophe Leclercq"]
+        },
+        {
+            "id": 9,
+            "name": "Tata Chemicals Limited",
+            "subsidiaries": ["Tata Chemicals Europe"]
+        },
+        {
+            "id": 10,
+            "name": "Bettys & Taylors Group Limited",
+            "location": "Yorkshire, England",
+            "subsidiaries": ["Bettys", "Taylors of Harrogate", "Yorkshire Tea"],
+            "foundation-date": "1886",
+            "founders": ["Frederick Belmont"]
+        }
+    ]
+}
