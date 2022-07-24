@@ -21,3 +21,6 @@ To chat with the bot on the command line, run
 ```
 rasa shell
 ```
+
+Complete description about the project can be found here:
+[link](https://github.com/ChiragJindal21/Knowledge-Base-Bot/blob/main/Report.pdf)
